@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="horario()">
+    <section>
+        <main>
+            <div class="block" id="hora"></div>
+            <div class="block" id="minuto"></div>
+            <div class="block" id="segundo"></div>
+
+            <div class="block2">Hora</div>
+            <div class="block2">Minuto</div>
+            <div class="block2">segundo</div>
+        </main>
+        <div class="inputs">
+            <input max="23" min="0" class="hora" type="number">
+            <input max="59" min="0" class="min" type="number">
+            <input max="59" min="0" class="seg" type="number">
+
+            <div class="block2">Hora</div>
+            <div class="block2">Minuto</div>
+            <div class="block2">segundo</div>
+
+            <div>
+                <input id="env" type="submit" value="Enviar Alarme">
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                &copy;fidelino 2022
+            </p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(25, 11, 37);
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+section main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid rgb(135, 7, 255);
+}
+section main .block {
+    border: 4px solid rgb(135, 7, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: rgb(25, 12, 36);
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 10px
+}
+section main .block2 {
+    border: 4px solid rgb(135, 7, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background: rgb(25, 12, 36);
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 10px
+}
+section .inputs {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid rgb(135, 7, 255);
+}
+section .inputs .hora, .min, .seg {
+    border: 4px solid rgb(135, 7, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: rgb(25, 12, 36);
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 10px
+}
+section .inputs .block2 {
+    border: 4px solid rgb(135, 7, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background: rgb(25, 12, 36);
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 10px
+}
+section .inputs div input {
+    cursor: pointer;
+    border: 4px solid rgb(135, 7, 255);
+    border-radius: 10px;
+    width: 320px;
+    height: 60px;
+    background: rgb(25, 12, 36);
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    transition: .5s;
+}
+section .inputs div input:hover {
+    background: rgb(135, 7, 255);
+}
+section footer {
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.116);
+    position: fixed;
+    bottom: 0;
+}
+section footer p {
+    font-weight: bold;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 40px;
+}
